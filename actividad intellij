@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = 0;
+        int b = 0;
+        System.out.println("Escribe un numero: ");
+        int tamano = scanner.nextInt();
+        System.out.println("Escribe otro numero: ");
+        tamano = scanner.nextInt();
+        int result = add(a, b);
+        result = add(a, b);
+        System.out.println("La suma de " + a + " y " + b + " es: " + result);
+
+        /* resta */
+
+        result = subtract(a, b);
+        System.out.println("La rest de " + a + " y " + b + " es: " + result);
+
+        /* multiplicacion */
+
+        result = subtract(a, b);
+        System.out.println("La multiply de " + a + " y " + b + " es: " + result);
+
+        /* division */
+
+        result = subtract(a, b);
+        System.out.println("La division de " + a + " y " + b + " es: " + result);
+    }
+
+    public static int add(int a, int b) {
+        int c = a + b;
+        return c;
+    }
+
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+        public static int division ( int a, int b){
+            return a / b;
+        }
+    }
